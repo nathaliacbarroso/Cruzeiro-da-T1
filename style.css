@@ -17,11 +17,23 @@ header {
   align-items: start;
 }
 header h1 {
-  width: 65vh;
+  width: 95vh;
   text-align: center;
   color: #9d0000;
   font-size: 3rem;
-  margin-top: 0.5rem;
+  margin-top: 0.3rem;
   font-family: "Itim", cursive;
   font-weight: 400;
+}
+
+@media (min-width: 201px) and (max-width: 500px) {
+  header {
+    align-items: start;
+  }
+  header h1 {
+    font-size: 2rem;
+    color: rgb(255, 0, 0);
+    background-color: rgba(11, 138, 49, 0.2);
+    border-radius: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
